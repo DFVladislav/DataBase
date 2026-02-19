@@ -19,3 +19,7 @@ docker --version
 
 # Тестовый запуск
 docker run hello-world
+
+```
+
+### [Более подробная информация про команды Docker](info.md)
