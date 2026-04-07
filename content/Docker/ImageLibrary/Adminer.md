@@ -27,7 +27,14 @@ docker run -d \
   adminer:latest
 ```
 
+<img width="1078" height="552" alt="изображение" src="https://github.com/user-attachments/assets/d6f5cab2-4277-472c-a098-1f8b9005c9bd" />
+
+
 [Откройте: http://localhost:8084](http://localhost:8084)
+
+<img width="771" height="330" alt="изображение" src="https://github.com/user-attachments/assets/4f3f15c4-ecfa-49cb-9fc9-7760a0bd9853" />
+
+
 
 > Без отдельно запущенного контейнера с БД PostgreSQL и связи с ним админ-панель работаеть не будет!
 
