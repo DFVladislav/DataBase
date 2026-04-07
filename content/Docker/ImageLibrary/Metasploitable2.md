@@ -16,10 +16,16 @@ Metasploitable2 — специально уязвимая виртуальная
 docker pull tleemcjr/metasploitable2
 ```
 
+<img width="677" height="257" alt="изображение" src="https://github.com/user-attachments/assets/c1104429-d6f3-4279-b8fd-badeda3bd368" />
+
+
 Загрузить образ, создать и запустить контейнер, войти в него (для Windows)
 ```shell
 docker run --name metasploitable2 -it tleemcjr/metasploitable2
 ```
+
+<img width="617" height="474" alt="изображение" src="https://github.com/user-attachments/assets/c18c48f9-babf-4b0a-9e6a-866282f1f6dc" />
+
 
 Загрузить образ, создать и запустить контейнер, войти в него (для Linux)
 ```shell
@@ -40,6 +46,8 @@ docker rm metasploitable2
 ```shell
 docker rmi tleemcjr/metasploitable2
 ```
+<img width="505" height="233" alt="изображение" src="https://github.com/user-attachments/assets/5b123414-ce67-451d-9789-301c6a865dba" />
+
 
 [Metasploitable2 на Docker hub](https://hub.docker.com/r/tleemcjr/metasploitable2#!)
 
