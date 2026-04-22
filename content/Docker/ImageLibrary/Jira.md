@@ -16,17 +16,11 @@ docker run -d --name jira -p 2990:8080 atlassian/jira-software:latest
 ```shell
 docker run -d --name jira -p 2990:8080 addono/jira-software-standalone
 ```
-<img width="665" height="434" alt="изображение" src="https://github.com/user-attachments/assets/161e41f5-a5cf-4cb8-9450-2fa20e272241" />
-
-
 
 Запустите лог Jira для наблюдением за процессом подготовки приложения:
 ```shell
 docker logs -f jira
 ```
-<img width="716" height="763" alt="изображение" src="https://github.com/user-attachments/assets/d51c4784-c0a6-49ab-a66b-499c7123d926" />
-
-
 В логах должно быть видна подготовка Jira. Образ при первом запуске долго инициализируется (до 5-10 минут).
 
 Приложение, запущенное в контейнере может готовится долго, поэтому в браузере вы не сразу можете увидеть результат.
@@ -34,9 +28,6 @@ docker logs -f jira
 По завершению подготовки можно открыть в браузере запущенное приложение Jira:
 
 [Зайти в админ-панель Jira в браузере по адреcу http://localhost:2990](http://localhost:2990)
-
-<img width="789" height="681" alt="изображение" src="https://github.com/user-attachments/assets/171f17c2-c885-4059-99b5-048b1461bde1" />
-
 
 > Заполнять данные админ-панели не нужно!
 

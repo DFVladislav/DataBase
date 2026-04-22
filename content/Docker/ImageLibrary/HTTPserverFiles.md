@@ -21,9 +21,6 @@ docker run -d `
   nginx:alpine
 ```
 
-<img width="831" height="351" alt="изображение" src="https://github.com/user-attachments/assets/196515b3-2279-4337-a84a-1ae7c59e03db" />
-
-
 > Если эта команда в Powershell не работает, то удалите из кода апострофы `
 
 в **Git-Bash/Linux/WSL 2.0/Mac**
