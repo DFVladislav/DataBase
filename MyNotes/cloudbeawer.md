@@ -24,11 +24,14 @@ services:
 ```shell
 docker compose up -d
 ```
+![alt text](image-29.png)
 
 [После этого откройте http://localhost:8978](http://localhost:8978) и начните работу. Все ваши подключения и настройки сохранятся в папке `./workspace`
 
 Создайте новый сервер с именем администратора `cbadmin` и своим паролем > 8 символов, включая хотя бы одну прописную и строчную букву
-
+![alt text](image-30.png)
+![alt text](image-31.png)
+![alt text](image-32.png)
 4. Управление проектом
 
 ### Состояние проекта как сервиса
@@ -51,6 +54,7 @@ docker compose logs cloudbeaver
 ```shell
 docker compose logs -f cloudbeaver
 ```
+![alt text](image-33.png)
 
 ### Остановка, запуск, вход и выход
 
@@ -74,6 +78,7 @@ docker compose config
 ```shell
 docker compose exec mysql bash
 ```
+![alt text](image-34.png)
 Выйти из сервиса
 ```shell
 exit
@@ -85,6 +90,7 @@ exit
 ```shell
 docker compose down
 ```
+![alt text](image-35.png)
 2. Остановка с полным удалением всех данных (тома, базы данных и файлы) - опционально:
 ```shell
 docker compose down -v
@@ -103,6 +109,7 @@ cd ..
 ```shell
 rm -rf DBeaver
 ```
+![alt text](image-36.png)
 если вы в Linux, то возможно придётся использовать `sudo` или `su -`
 
 ### Полезные ссылки
